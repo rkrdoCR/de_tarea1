@@ -1,0 +1,238 @@
+\documentclass[12pt,a4paper,table]{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+
+\title{Tarea 1. Diseño de Experimentos.}
+
+\pagestyle{fancy}
+\fancyhead[LE,RO]{Soluciones capitulo 2.}
+\fancyhead[RE,LO]{}
+ 
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.33\textwidth]{Teclogocompleto.jpg}\par\vspace{1cm}
+	{\scshape\large \textbf{Instituto Tecnológico de Costa Rica }\par}
+	\vspace{1cm}
+	{\scshape\Large MC 6104 Diseño de Experimentos\par}
+	\vspace{1.5cm}
+	{\Large\bfseries 
+	Tarea 1.\\ Soluciones Capitulo 2.\\ Diseño y Análisis de Experimentos.\par}
+	\vspace{2cm}
+	{\Large\itshape Marco Acuña  \\
+	 Ricardo Alfaro\par}
+	\vfill
+	Profesor:\par
+	Jose Castro Mora\textsc{}
+	\vfill
+
+	{\large} Abril 2021 \par
+\end{titlepage}
+
+%\tableofcontents
+%\newpage
+
+\section*{Ejercicio 1}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    		$\mathrm{H}_{0}-\mu=150 \quad \mathrm{H}_{1}: \mu>150$
+    \item
+    		$n=4, \quad \sigma=3, \bar{y}=1 / 4(145+153+150+147)=148.75$ \\\\
+$z_{0}=\frac{\bar{y}-\mu_{o}}{\frac{\sigma}{\sqrt{n}}}=\frac{148.75-150}{\frac{3}{\sqrt{4}}}=\frac{-1.25}{\frac{3}{2}}=-0.8333$\\\\
+-Como $z_{0.05} = 1.645$ no se debe rechazar.
+	\item
+		$P \cong 1-[0.7967+(2 / 3)(0.7995-0.7967)]=0.2014$
+	\item
+		$\bar{y}-z_{\alpha / 2} \frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{y}+z_{\sigma / 2} \frac{\sigma}{\sqrt{n}}$\\\\
+$148.75-(1.96)(3 / 2) \leq \mu \leq 148.75+(1.96)(3 / 2)$\\\\
+$145.81 \leq \mu \leq 151.69$
+\end{enumerate}
+
+\section*{Ejercicio 2}
+Marco
+
+\section*{Ejercicio 3}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    		$\mathrm{H}_{0}-\mu=0.255 \quad \mathrm{H}_{1}: \mu \neq 0.255$
+    \item
+    		$n=10, \quad \sigma=0.0001, \bar{y}=0.2545$ \\\\
+$z_{0}=\frac{\bar{y}-\mu_{o}}{\frac{\sigma}{\sqrt{n}}}=\frac{0.2545-0.255}{\frac{0.0001}{\sqrt{10}}}=-15.81$\\\\
+-Como $z_{0.025} = 1.96$ rechazar $\mathrm{H}_{0}$.
+	\item
+		$P=2.6547 \mathrm{x} 10^{-56}$
+	\item
+		$\bar{y}-z_{z / 2} \frac{\sigma}{\sqrt{n}} \leq \mu \leq \bar{y}+z_{\% / 2} \frac{\sigma}{\sqrt{n}}$\\\\
+$0.2545-(1.96)\left(\frac{0.0001}{\sqrt{10}}\right) \leq \mu \leq 0.2545+(1.96)\left(\frac{0.0001}{\sqrt{10}}\right)$\\\\
+$0.254438 \leq \mu \leq 0.254562$
+\end{enumerate}
+
+\section*{Ejercicio 4}
+Marco
+
+\section*{Ejercicio 5}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    		$\mathrm{H}_{0}-\mu=120 \quad \mathrm{H}_{1}: \mu > 120$
+    \item
+    		$\bar{y}=131$
+$s^{2}=\left[(108-131)^{2}+(124-131)^{2}+(124-131)^{2}+(106-131)^{2}+(115-131)^{2}+(138-131)^{2}\right.$\\\\
+$\left.\quad+(163-131)^{2}+(159-131)^{2}+(134-131)^{2}+(139-131)^{2}\right] /(10-1)$\\\\
+$s^{2}=3438 / 9=382$\\\\
+$s=\sqrt{382}=19.54$\\\\
+$t_{o}=\frac{\bar{y}-\mu_{o}}{s / \sqrt{n}}=\frac{131-120}{19.54 / \sqrt{10}}=1.78$\\\\
+-Como $t_{0.01,9}=2.821 ;$ no se rechaza $\mathrm{H}_{0}$
+	\item
+		$P=0.054$
+	\item
+		$\bar{y}-t_{q / 2}=\frac{s}{\sqrt{n}} \leq \mu \leq \bar{y}+t_{q / 2}=\frac{s}{\sqrt{n}}$\\\\
+		$131-(3.250)\left(\frac{1954}{\sqrt{10}}\right) \leq \mu \leq 131+(3.250)\left(\frac{1954}{\sqrt{10}}\right)$\\\\
+		$110.91 \leq \mu \leq 151.09$
+\end{enumerate}
+
+\section*{Ejercicio 6}
+Marco
+
+\section*{Ejercicio 7}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    		$\mathrm{H}_{0}-\mu=225 \quad \mathrm{H}_{1}: \mu > 225$
+    \item
+    		$\bar{y}=247.50$\\\\
+$s^{2}=146202 /(16-1)=9746.80$\\\\
+$s=\sqrt{9746.8}=98.73$\\\\
+$t_{o}=\frac{\bar{y}-\mu_{o}}{\frac{s}{\sqrt{n}}}=\frac{241.50-225}{\frac{98.73}{\sqrt{16}}}=0.67$\\\\
+-Como $t_{0.05 .15}=1.753 ;$ no se rechaza $\mathrm{H}_{0}$
+	\item
+		$P=0.26$
+	\item
+		$\bar{y}-t_{\% / 2-1} \frac{s}{\sqrt{n}} \leq \mu \leq \bar{y}+t_{q / 2, n-1} \frac{s}{\sqrt{n}}$\\\\
+$241.50-(2.131)\left(\frac{98.73}{\sqrt{16}}\right) \leq \mu \leq 241.50+(2.131)\left(\frac{98.73}{\sqrt{16}}\right)$\\\\
+$188.9 \leq \mu \leq 294.1$
+\end{enumerate}
+
+\section*{Ejercicio 8}
+Marco
+
+\section*{Ejercicio 9}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    		$\mathrm{H}_{0}:\mu_{1}=\mu_{2} \quad \mathrm{H}_{1}:\mu_{1} \neq \mu_{2}$
+    \item
+    		$\begin{array}{ll}
+\bar{y}_{1}=16.015 & \bar{y}_{2}=16.005 \\
+\sigma_{1}=0.015 & \sigma_{2}=0.018 \\
+n_{1}=10 & n_{2}=10
+\end{array}$\\\\
+$z_{o}=\frac{y_{1}-y_{2}}{\sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+\frac{\sigma_{2}^{2}}{n_{2}}}}=\frac{16.015-16.018}{\sqrt{\frac{0.015^{2}}{10}+\frac{0.018^{2}}{10}}}=1.35$
+	\item
+		$P=0.1770$
+	\item
+	$\bar{y}_{1}-\bar{y}_{2}-z_{\frac{\alpha}{2}} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+\frac{\sigma_{2}^{2}}{n_{2}}} \leq \mu_{1}-\mu_{2} \leq \bar{y}_{1}-\bar{y}_{2}+z_{\not / 2} \sqrt{\frac{\sigma_{1}^{2}}{n_{1}}+\frac{\sigma_{2}^{2}}{n_{2}}}$\\\\
+$(16.015-16.005)-(19.6) \sqrt{\frac{0.015^{2}}{10}+\frac{0.018^{2}}{10}} \leq \mu_{1}-\mu_{2} \leq(16.015-16.005)+(19.6) \sqrt{\frac{0.015^{2}}{10}+\frac{0.018^{2}}{10}}{-0.0045 \leq \mu_{1}-\mu_{2} \leq 0.0245}$
+\end{enumerate}
+
+\section*{Ejercicio 10}
+Marco
+
+\section*{Ejercicio 11}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    $H_{0}: \sigma_{1}^{2} =\sigma_{2}^{2} \quad S_{1}=9.264$\\ $H 1: \sigma_{1}^{2} \neq \sigma_{2}^{2} \quad S_{2}=9.367$\\ $F_{0} =\frac{S_{1}^{2}}{S_{2}^{2}} =\frac{85.82}{87.73} =0.98$\\
+$F_{0.025,9,9}=4.03 \quad F_{0.975,9,9}=\frac{1}{F_{0.025,9,9}}=\frac{1}{4.03}=0.248$ no se rechaza. 
+    \item
+    		$S_{p}^{2}=\frac{\left(n_{1}-1\right) S_{1}^{2}+\left(n_{2}-1\right) S_{2}^{2}}{n_{1}+n_{2}-2}=\frac{1561.95}{18}=86.775$
+$S_{p}=9.32$
+$t_{0}=\frac{\bar{y}_{1}-\bar{y}_{2}}{S_{p} \sqrt{\frac{1}{n_{1}}+\frac{1}{n_{2}}}}=\frac{70.4-70.2}{9.32 \sqrt{\frac{1}{10}+\frac{1}{10}}}=0.048$
+$t_{0.025,18}=2.101 \quad$ no se rechaza.
+\end{enumerate}
+
+\section*{Ejercicio 12}
+Marco
+
+\section*{Ejercicio 13}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    $H_{0}: \sigma_{1}^{2}=\sigma_{2}^{2}$\\\\
+$H_{1}: \sigma_{1}^{2} \neq \sigma_{2}^{2}$\\\\
+$F_{0.025,7,8}=4.53$\\\\
+$F_{0}=\frac{S_{1}^{2}}{S_{2}^{2}}=\frac{101.17}{94.73}=1.07$
+no se rechaza. 
+    \item
+    		$H_{0}: \mu_{1}=\mu_{2}$\\\\
+$H_{1}: \mu_{1} \neq \mu_{2}$\\\\
+$S_{p}^{2}=\frac{\left(n_{1}-1\right) S_{1}^{2}+\left(n_{2}-1\right) S_{2}^{2}}{n_{1}+n_{2}-2}=\frac{(8-1)(101.17)+(9-1)(94.73)}{8+9-2}=97.74$\\\\
+$S_{p}=9.89$\\\\
+$t_{0}=\frac{\bar{y}_{1}-\bar{y}_{2}}{S_{p} \sqrt{\frac{1}{n_{1}}+\frac{1}{n_{2}}}}=\frac{12.5-10.2}{9.89 \sqrt{\frac{1}{8}+\frac{1}{9}}}=0.479$\\\\
+$t_{0.05 .15}=1.753$
+no se rechaza.
+\end{enumerate}
+
+\section*{Ejercicio 14}
+Marco
+
+\section*{Ejercicio 15}
+\begin{enumerate}[label=(\alph*)]
+    \item
+    $\mathrm{H}_{0}: \mu_{1}=\mu_{2} \quad \mathrm{H}_{1}: \mu_{1} \neq \mu_{2}$\\\\
+    o de manera equivalente\\\\
+    $\mathrm{H}_{0}: \mu_{d}=0 \quad \mathrm{H}_{1}: \mu_{d} \neq 0$    
+    \item
+    		$P = 0.674$
+    \item
+    		$\bar{d}-t_{/ 2^{n-1}} \frac{S_{d}}{\sqrt{n}} \leq \mu_{D}\left(=\mu_{1}-\mu_{2}\right) \leq \bar{d}+t_{/ 2, n-1} \frac{S_{d}}{\sqrt{n}}$\\\\
+$0.00025-2.201 \frac{0.002}{\sqrt{12}} \leq \mu_{d} \leq 0.00025+2.201 \frac{0.002}{\sqrt{12}}$\\\\
+$-0.00102 \leq \mu_{d} \leq 0.00152$
+\end{enumerate}
+
+\section*{Ejercicio 16}
+Marco
+
+\section*{Ejercicio 17}
+Ricardo
+
+\section*{Ejercicio 18}
+Marco
+
+\section*{Ejercicio 19}
+Ricardo
+
+\section*{Ejercicio 20}
+Marco
+
+\section*{Ejercicio 21}
+Ricardo
+
+\section*{Ejercicio 22}
+Marco
+
+\section*{Ejercicio 23}
+$\frac{S_{2}^{2} / \sigma_{2}^{2}}{S_{1}^{2} / \sigma_{1}^{2}} \sim F_{n_{2}-L_{1}-1}$\\\\
+$P\left\{F_{1-/ 2, n_{2}-1, n_{1}-1} \leq \frac{S_{2}^{2} / \sigma_{2}^{2}}{S_{1}^{2} / \sigma_{1}^{2}} \leq F_{/, n_{2}-1, n_{1}-1}\right\}=1-\alpha$ or\\\\
+$P\left\{\frac{S_{1}^{2}}{S_{2}^{2}} F_{1-/ 2, n_{2}-1, n_{1}-1} \leq \frac{\sigma_{1}^{2}}{\sigma_{2}^{2}} \leq \frac{S_{1}^{2}}{S_{2}^{2}} F_{/ 2}=1,-1-\alpha\right.$
+
+\section*{Ejercicio 24}
+Marco
+
+\section*{Ejercicio 25}
+\begin{tabular}{rrl}
+\multicolumn{1}{c} {$\mathrm{A}$} & \multicolumn{1}{c} { B } & delta \\
+\hline 7.1662 & 8.2416 & 1.07541 \\
+2.3590 & 2.4555 & 0.09650 \\
+19.9977 & 21.1018 & 1.10412 \\
+0.9077 & 2.3401 & 1.43239 \\
+-15.9034 & -15.0013 & 0.90204 \\
+-6.0722 & -5.5941 & 0.47808 \\
+9.9501 & 10.6910 & 0.74085 \\
+-1.0944 & -0.1358 & 0.95854 \\
+-4.6907 & -3.3446 & 1.34615 \\
+-6.6929 & -5.9303 & 0.76256
+\end{tabular}
+
+\end{document}
+
